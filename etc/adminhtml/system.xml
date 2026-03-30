@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
-        <tab id="pengo" translate="label" sortOrder="100">
-            <label>Pengo</label>
+        <tab id="core" translate="label" sortOrder="100">
+            <label>Core</label>
         </tab>
         <section id="contador" translate="label" sortOrder="300" showInDefault="1" showInWebsite="1" showInStore="1">
             <label>Contador</label>
-            <tab>pengo</tab>
-            <resource>Pengo_Contador::config</resource>
+            <tab>core</tab>
+            <resource>Core_Contador::config</resource>
             <group id="local" translate="label" type="text" sortOrder="0" showInDefault="1" showInWebsite="1" showInStore="1">
                 <label>General Configuration</label>
 
@@ -24,7 +24,7 @@
                 <field id="fecha" translate="label comment" type="text" sortOrder="30" showInDefault="1" showInWebsite="1" showInStore="1">
                     <label>Fecha Fin</label>
                     <comment>Fecha limite del contador (a las 12:00 am del dia seleccionado terminara de contar)</comment>
-                    <frontend_model>Pengo\Contador\Block\DatePicker</frontend_model>
+                    <frontend_model>Core\Contador\Block\DatePicker</frontend_model>
                 </field>
                 <field id="custom_file_upload" translate="label" type="Magento\Config\Block\System\Config\Form\Field\File" sortOrder="6" showInDefault="1" showInWebsite="1" >
                     <label>Banner</label>
