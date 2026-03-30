@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Pengo\Contador\Helper;
+namespace Core\Contador\Helper;
 
 use \Magento\Framework\App\Config\ScopeConfigInterface;
 use \Magento\Store\Model\ScopeInterface;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Pengo\Contador\Block;
+namespace Core\Contador\Block;
 
 use Magento\Framework\Registry;
 use Magento\Backend\Block\Template\Context;
